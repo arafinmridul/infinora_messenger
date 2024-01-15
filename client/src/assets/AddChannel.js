@@ -1,5 +1,7 @@
 import React from "react";
 
+// http://www.w3.org/2000/svg is an XML namespace
+
 export const AddChannel = ({
     setCreateType,
     setIsCreating,
