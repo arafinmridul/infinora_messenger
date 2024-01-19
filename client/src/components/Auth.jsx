@@ -28,7 +28,7 @@ const Auth = () => {
 
         const { username, password, phoneNumber, avatarURL } = form;
 
-        const URL = "https://infinora-messenger-api.onrender.com/auth/";
+        const URL = "https://infinora-messenger-api.onrender.com/auth";
 
         const {
             data: { token, userId, hashedPassword, fullName },
